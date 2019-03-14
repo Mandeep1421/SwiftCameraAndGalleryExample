@@ -12,6 +12,7 @@ class ViewController: UIViewController
 {
 
     @IBOutlet weak var imgPhoto: UIImageView!
+    var newMedia: Bool?
     override func viewDidLoad()
     {
         super.viewDidLoad()
